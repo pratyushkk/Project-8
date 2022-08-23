@@ -9,13 +9,12 @@ body{
     background-repeat: no-repeat;
     background-position:  right bottom;
 }
-@media only screen and (max-width: 1065px) 
-nav{
-    display: flex;
-    justify-content: space-around;
-    height: 17vh;
-    align-items: center;
-}
+@media only screen and (max-width: 1065px) {
+    nav {
+        overflow-x: auto;
+        padding-left: 20px;
+        height: 14vh;
+    }
 
 nav .nav-item{
    display: inline; 
